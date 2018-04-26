@@ -6,14 +6,13 @@
   <title>Homework ALex</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--Optional Theme-->
-    <!--<link rel='stylesheet' href="https://bootswatch.com/4/lux/bootstrap.min.css">-->
+    
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <nav class="navbar navbar-default">
-      <!--Use .container-fluid for a full width container-->
+    <!--Use .container-fluid for a full width container-->
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -38,8 +37,6 @@
               <li><a href="humidity.html">Humidity</a></li>
               <li><a href="cloudiness.html">Cloudiness</a></li>
             <li><a href="wind-speed.html">Wind Speed</a></li>
-              <!--<li role="separator" class="divider"></li>
-              <li><a href="file:///Users/alexandriacabello/Desktop/alexa289.github.io/index.html">About Me!</a></li>-->
             </ul>
           </li>
         </ul>
@@ -53,15 +50,12 @@
             <header>
                 <div class="row">
                     <div class="left col-lg-8 col-md-8 col-xs-12">
-                        <h2>Summary: Latitude vs. X</h2>
-                        <img src="Resources/Latitude-Longitude.png" alt="Latitude vs Longitude picture" width= "480" height="300" class="pull-left img_responsive img-rounded">
-                        <p> The intent of this project was creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To
-                        accomplish this, I used a simple Python library and the OpenWeatherMap API. The objective was to build a series of scatter plots to showcase the
-                        following relationships: <a href="max-temperature.html">Temperature (F) vs. Latitude</a>, <a href="humidity.html">Humidity (%) vs. Latitude</a>, <a href="cloudiness.html">Cloudiness (%) vs. Latitude</a>, and <a href="wind-speed.html"> Wind Speed (mph)
-                        vs. Latitude.</a>
-                        </p>
-                        <p>This site provides the source data and visualizations created with Matplotlib as part of the analysis, as well as explanations and descriptions
-                        of any trends and correlations observed in the dataset
+                        <h2>Summary: Latitude vs. Temperature</h2>
+                        <img src="Resources/Temperature- Latitude.png" alt="Latitude vs Temperature picture" width= "500" height="300" class="pull-left img_responsive img-rounded">
+                        <p> The analysis of the random cities latitude versus their maximum temperature occured on March, 2018. We can observe in the graph that during this time of the year
+                            the Northern hemisphere is cooler than the Southern hemisphere. Also, as expected the cities closer to the equator(latitude = 0) are the ones with the greatest max temperature, 
+                            which might be due to the tilt of the earth. 
+                            Most of the cities generated are located in the Northern Hemisphere so this study may have slanted data that fits preconceived notions of findings.</a>
                         </p>
                     </div>
                     <div class="col-lg-4 col-md-6 col-xs-12">
@@ -70,14 +64,14 @@
                                 <div class="col-md-6 col-lg-6">
                                     <div class="thumbnail">
                                         <a href="max-temperature.html">
-                                        <img src="Resources/Temperature- Latitude.png"  class="img_responsive" alt="Latitude vs Temperature">
+                                        <img src="Resources/Temperature- Latitude.png" width= "600" height="600" class="img_responsive" alt="Latitude vs Temperature">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-6">
                                     <div class="thumbnail">
                                         <a href="humidity.html">
-                                        <img src="Resources/Humidity-Latitude.png"  class="img_responsive" alt="Latitude vs Humnidity">
+                                        <img src="Resources/Humidity-Latitude.png" width= "600" height="600" class="img_responsive" alt="Latitude vs Humnidity">
                                         </a>
                                     </div>
                                 </div>
@@ -86,14 +80,14 @@
                                 <div class="col-md-6 col-lg-6">
                                     <div class="thumbnail">
                                         <a href="cloudiness.html">
-                                        <img src="Resources/Cloudiness-Latitude.png"  class="img_responsive" alt="Latitude vs Cloudiness">
+                                        <img src="Resources/Cloudiness-Latitude.png" width= "600" height="600" class="img_responsive" alt="Latitude vs Cloudiness">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-6">
                                     <div class="thumbnail">
                                         <a href="wind-speed.html">
-                                        <img src="Resources/WindSpeed-Latitude.png"  class="img_responsive" alt="Latitude vs Wind Speed">
+                                        <img src="Resources/WindSpeed-Latitude.png" width= "600" height="600" class="img_responsive" alt="Latitude vs Wind Speed">
                                         </a>
                                     </div>
                                 </div>
@@ -119,13 +113,13 @@
         <a href="https://www.linkedin.com/in/alexandria-cabello-91b471157/">
             <i class="fa fa-linkedin"></i>
         </a>
-        <a  href="https://twitter.com/alexa_289">
+        <a href="https://twitter.com/alexa_289">
             <i class="fa fa-twitter"></i>
         </a>
-        <p class= "footer-text">
-            <small> © Copyright Alexandria Cabello April 2018 
-            </br>
-                      NWU Data Science Boot Camp
+        <p class="footer-text">
+            <small> © Copyright Alexandria Cabello April 2018
+                </br>
+                NWU Data Science Boot Camp
             </small>
         </p>
     </footer>
